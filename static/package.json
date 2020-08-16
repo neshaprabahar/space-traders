@@ -1,0 +1,58 @@
+{
+  "name": "SpaceTradersWebApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "watch": "webpack --progress -d --config webpack.config.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "google-fonts-webpack-plugin": "^0.4.4",
+    "js-cookies": "^1.0.4",
+    "react": "^16.9.0",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^16.9.0",
+    "react-minimap": "^0.7.4",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "style-loader": "^1.0.0",
+    "universal-cookie": "^4.0.2",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "keywords": [
+    "fullstack",
+    "template",
+    "python",
+    "react",
+    "npm",
+    "webpack"
+  ],
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.3.1",
+    "mdbreact": "^4.21.0",
+    "micromodal": "^0.4.2",
+    "p5": "^0.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-p5-wrapper": "^2.0.0"
+  }
+}

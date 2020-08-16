@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: #788487;
+    position: relative;
+}
+
+html {
+    overflow-x: hidden !important;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1,.h1,
+h2,.h2,
+h3,.h3,
+h4,.h4,
+h5,.h5,
+h6 ,.h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #232323;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:hover {
+    color: #635CDB;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.no-padding {
+    padding: 0
+}
+
+.flaticon {
+    display: inline
+}
+
+
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+    /* color: white; */
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+.f-color {
+    color: #635CDB;
+}
+
+h5.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.section-padding {
+    padding: 90px 0px;
+}
+
+.section-heading {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 60px;
+}
+
+.section-title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 15px;
+    text-transform: capitalize
+}
+
+.section-title span {
+    color: #635CDB;
+}
+.section{
+    padding: 100px 0px;
+}
+
+
+.line {
+    width: 50px;
+    background: #635CDB;
+    height: 1px;
+    margin: 10px auto;
+}
+
+
+
+
+/*---------- BUTTONS ----------*/
+
+.startBtn {
+    margin-top:500px;
+}
+
+.btn {
+    font: 600 10.5px/1;
+    display: inline-block;
+    padding: 15px 45px 15px 45px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    border-radius: 0px;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.btn:focus,
+.btn:active,
+.btn:active:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-hero,
+.btn-white:hover {
+    color: #fff !important;
+    background: #635CDB;
+}
+
+.btn-hero:focus {
+    color: #fff !Important;
+}
+
+.btn-black,
+.btn-hero:hover {
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff !Important;
+}
+
+.btn-black:hover {
+    color: #fff;
+    background: #635CDB;
+}
+
+.btn-black:focus {
+    color: #fff;
+}
+
+.btn-white {
+    background-color: rgba(255, 255, 255, .95);
+    color: rgba(0, 0, 0, .85);
+    border-color: rgba(255, 255, 255, .12);
+}
+
+.btn-white:focus {
+    color: #000;
+}
+
+.btn-white:active {
+    color: #fff;
+}
+
+.btn-trans-black {
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, .15);
+    color: rgba(0, 0, 0, .85);
+}
+
+.btn-trans-black:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: #000;
+}
+
+.btn-trans-white {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .15);
+    color: rgba(255, 255, 255, .95);
+}
+
+.btn-trans-white:hover {
+    background-color: rgba(255, 255, 255, .95);
+    color: rgba(0, 0, 0, .85);
+    border-color: rgba(255, 255, 255, .12);
+}
+
+.btn-trans-white:active,
+.btn-trans-white:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, .12);
+}
+
+.btn-rounded {
+    border-radius: 2px;
+}
+
+.btn-circled {
+    border-radius: 40px;
+}
+
+
+.btn-trans-black:hover {
+    background: #635CDB !important;
+}
+
+
+
+/*---------- COLORS ----------*/
+
+/*-- Background Colors --*/
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, .96);
+}
+
+.bg-feature {
+    background-color: #635CDB;
+}
+
+.bg-primary {
+    background-color: #0db8ca;
+}
+
+.bg-gray {
+    background-color: #f2f4ec;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+
+.d-table {
+    width: 100%;
+}
+
+
+.d-table-cell {
+    vertical-align: middle;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.brown-overlay {
+    background: #222955;
+    opacity: .97;
+}
+
+.feature-overlay {
+    background: #635CDB;
+    opacity: .97;
+}
+
+.gr-overlay {
+    background: linear-gradient(135deg, #2f1ce0 0%, #53a0fd 30%, #51eca5 100%);
+    opacity: .87;
+}
+
+/*------------------------------------
+ BANNER AREA
+----------------------------------*/
+
+.banner-area .content-padding {
+    margin-bottom:0px;
+}
+
+
+.content-padding {
+    padding: 730px 0px 80px;
+}
+
+.banner-content {
+    padding-right: 30px;
+}
+
+.banner-content .btn {
+    margin-top: 15px;
+}
+
+
+.banner-content .banner-title {
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.banner-content .subtitle {
+    color: #fff;
+    background: #635CDB;
+    display: inline-block;
+    padding: 3px 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    margin: 20px 0px;
+    color: #eee;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.banner-content .btn {
+    margin-right: 12px;
+}
+
+.btn-sm {
+    padding: 10px 30px;
+}
+
+
+.banner-1 {
+    background: url("./../../assets/img/spacetraders.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #181818
+}
+
+
+.section-heading h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.heading{
+    margin-bottom: 70px;
+}
+
+
+/*------------------------------------
+ START PAGE [LOGIN & SIGNUP]
+----------------------------------*/
+
+.startpage_div{
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: url("./../../assets/img/spacetraders.png");
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color: #181818
+}
+
+.login_container{
+    width: 50%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: url("./../../assets/img/spacetraders.png");
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color: #181818
+}
+
+.signup_container{
+    width: 50%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: url("./../../assets/img/spacetraders.png");
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color: #181818
+  
+}
